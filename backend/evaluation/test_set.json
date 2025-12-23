@@ -1,0 +1,28 @@
+[
+    {
+        "q_id": 1,
+        "question": "What is the subject of Section 6 in the ML Engineer Study Guide?",
+        "reference_answer": "Section 6 covers Monitoring ML solutions.",
+        "relevant_keywords": [
+            "Monitoring",
+            "ML solutions",
+            "Section 6"
+        ]
+    },
+    {
+        "q_id": 2,
+        "question": "What are the three main pillars discussed in the Generative AI book title?",
+        "reference_answer": "The three pillars are Generative AI, Cybersecurity, and Ethics.",
+        "relevant_keywords": [
+            "Generative AI",
+            "Cybersecurity",
+            "Ethics"
+        ]
+    },
+    {
+        "q_id": 3,
+        "question": "What is Retrieval Augmented Generation?",
+        "reference_answer": "Expected failure: The RAG Paper.pdf appears to be unreadable (scanned?). output should be 'I cannot find sufficient evidence'.",
+        "relevant_keywords": []
+    }
+]

@@ -1,0 +1,24 @@
+FROM node:18-alpine
+
+WORKDIR /app
+
+# Copy package files
+COPY package*.json ./
+
+# Install dependencies
+# Install dependencies with increased timeout
+RUN npm config set fetch-retry-maxtimeout 600000 \
+    && npm config set fetch-retries 5 \
+    && npm install
+
+# Copy application
+COPY . .
+
+# Build
+RUN npm run build
+
+# Expose port
+EXPOSE 3000
+
+# Run
+CMD ["npm", "start"]

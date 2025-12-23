@@ -1,0 +1,345 @@
+[
+  {
+    "q_id": 100,
+    "question": "What is the most recent publication of the authors of the article ?",
+    "reference_answer": "310 references 92 seymour, j. andtully, p. ( 2018 ) \u2018 deepphish : simulatingmaliciousai \u2019, in presentedatthedefcon26aivillage. availableat : https : / / media. defcon. org / def % 20con % 2026 / def % 20con % 2026 % 20presentations / defcon - 26 - seymour - tully - deepphish - phishing - with - deep - learning - updated. pdf. 93 hu, w. andtan, y. ( 2017 ) generatingadversarialmalwareexamplesfor black - boxattacksbasedongan. arxivpreprintarxiv : 1702. 05983. avail - ableat : https : / / arxiv. org / abs / 1702. 05983. 94 barreno, m., nelson, b., joseph, a. d. andtygar, j. d. ( 2010 ) \u2018 thesecurityof machinelearning \u2019, communicationsoftheacm, 52 ( 4 ), pp. 60 \u2013 67. https : / / doi. org / 10. 1145 / 1606468. 1606477. 95 bbcnews ( 2019 ) fraudstersusedaitomimicceo \u2019 svoicein $ 243, 000wire transferscam. bbcnews, 4september. availableat : https : / / www. bbc. com / news / technology - 49570319 ( accessed : 15june2024 ). 96 papernot, n., mcdaniel, p. andsinha, a. ( 2018 ) \u2018 aiforsecurityandsecurity forai \u2019, ieeesecurityandprivacy, 16 ( 3 ), pp. 34 - 38. https : / / doi. org / 10. 1109 / msp. 2018. 2701164. 97 papernot, n., mcdaniel, p., wu, x., jha, s. andswami, a. ( 2016 ) \u2018 distillation asadefensetoadversarialperturbationsagainstdeepneuralnetworks \u2019, in 2016ieeesymposiumonsecurityandprivacy ( sp ), pp. 582 \u2013 597. https : / / doi. org / 10. 1109 / sp. 2016. 41. 98 plato ( 2002 ) phae",
+    "relevant_keywords": [],
+    "source_chunk_idx": 614
+  },
+  {
+    "q_id": 101,
+    "question": "What is the main idea of the passage?",
+    "reference_answer": "##andlegally, maintaining trustandsecurityinthedigitalecosystem.",
+    "relevant_keywords": [],
+    "source_chunk_idx": 430
+  },
+  {
+    "q_id": 102,
+    "question": "What is the main idea of the passage?",
+    "reference_answer": "escalating impact of cyber threats. projections indicatethistrendwillpersist, withcostsexpectedtohit $ 23. 84trillionby2027 [ 27 \u2013 29 ]. in2023, 3122publiclyreporteddatabreachesaffected349millionindivid - uals, withtheaveragecostofadatabreachrisingto $ 4. 45million, a2. 6 % increase from the previous year [ 30 ]. this underscores the critical need for robust data dsu noillirt ni tsoc latot",
+    "relevant_keywords": [],
+    "source_chunk_idx": 90
+  },
+  {
+    "q_id": 104,
+    "question": "What is the main idea of the passage?",
+    "reference_answer": "##ationalaistrategyfostersthe adoptionof ai across various sectors, includingcybersecurity, whileensuring a balance between innovation and ethical, privacy concerns. the cybersecurity policy framework delineates the country \u2019 s strategy for managing cyber threats andsecuringdigitalinfrastructure, highlightingtheuseofaiforimprovedthreat detection and incident response. the protection of personal information act ( popia ) playsavitalroleinensuringlawfuldataprocessinginaiapplications, enhancing transparency and accountability. additionally, the ncs lays out a comprehensiveplantostrengthencyberdefensesandprotectcriticalinfrastruc - ture, advocating for the development of local ai capabilities and international collaboration. southafricaalsoencouragesppps andinternationalcooperation to foster innovation and align the nation \u2019 s cybersecurity policies with global standards, placing a high priority on ethical ai development and establishing guidelinestoensurefairness, transparency, andaccountabilityinaisystems.",
+    "relevant_keywords": [],
+    "source_chunk_idx": 297
+  },
+  {
+    "q_id": 105,
+    "question": "What is the main idea of the passage?",
+    "reference_answer": "glossary 297 koreainternetandsecurityagency ( kisa ) asouthkoreangovernment agencydedicatedtopromotinginternetsecurityanddevelopinginformation securitytechnologies. kisaprovidescybersecurityservicesandsupportsthe developmentofthecountry \u2019 sdigitalinfrastructure. languagemodelfordialogueapplications ( lamda ) google \u2019 s conversationalaithatcanengageinafree - flowingwayaboutaseemingly endlessnumberoftopics. laserinterferometergravitational - waveobservatory ( ligo ) alarge - scalephysicsexperimentandobservatorytodetectcosmic gravitationalwavesandtodevelopgravitational - waveobservationsasan astronomicaltool. localinterpretablemodel - agnosticexplanations ( lime ) atechniquein machinelearningthatexplainsthepredictionsofanyclassifierinan interpretableandfaithfulmanner. llama alargelanguagemodeldevelopedforvarioustasks, knownforits efficiencyandabilitytoscaletodifferentsizesforvariousapplications. localinterpretablemodel - agnosticexplanations ( lime ) atechniquethat helpshumansunderstandthedecisionsmadebymachinelearningmodels. longshort - termmemory ( lstm ) aspecialkindofrnn, capableof learninglong - termdependencies. maliciousgan ( malgan ) atypeofgenerativeadversarialnetwork ( gan ) designedtogenerateadversarialexamplesthatcanfoolmachinelearning models. malgancanbeusedtotesttherobustnessofaisystemsagainst adversarialattacks. mapreduce aprogrammingmodelandanassociatedimplementationfor processingandgeneratingbigdatasetswithaparallel, distributedalgorithm onacluster. mit - ibmwatsonailab acollaborationbetweenmitandibmtoadvance aihardware, software, andalgorithms. modelwatermarking atechniqueusedinmachinelearningtoembeda uniqueidentifierin",
+    "relevant_keywords": [],
+    "source_chunk_idx": 586
+  },
+  {
+    "q_id": 106,
+    "question": "What is the main idea of the passage?",
+    "reference_answer": "47 3 understanding genai genaistandsasagroundbreakingsubsetofartificialintelligence ( ai ), centered on the creation of novel and original content, effectively mimicking human creativity. unlike traditional ai models, which focus on specific tasks such as classification or prediction, genai generates diverse data types by employing advanced machine learning techniques and algorithms. these systems analyze existing datasets to uncover patterns and relationships, subsequently using this informationtoproduceinnovativeoutputs. thistechnologycangeneraterealistic imagesandvideos, composemusic, writehuman - liketext, anddesignproducts, making it a versatile tool across fields such as art, entertainment, marketing, and virtual environment development. in this chapter, we will investigate the keyelementsofgenai, exploretheassociatedtoolsandframeworks, andreview severalgenaimodelsalongwiththeirapplications. hereareafewcharacteristics ofgenai : creativeoutput beyondanalyzingandclassifyingdata, genaisystemsarealsoadeptatcreating newandimaginativecontentthatparallelshuman - madeworks. thesesystems havethecapacitytocomposemusicwiththedepthofbeethoven \u2019 scompositions andcreatevisuallystunningartwork. learningfromdata genai models excel at learning from large datasets, identifying patterns to produce new and intriguing content. for example, after analyzing numerous landscape photos, a genai can create a stunning new landscape image by blendingelementsfromthesephotos. generativeai, cybersecurity, andethics, firstedition. rayislam ( mohammadrubyetislam ). \u00a92025johnwiley & sons, inc. published2025byjohnwiley & sons, inc.",
+    "relevant_keywords": [],
+    "source_chunk_idx": 128
+  },
+  {
+    "q_id": 107,
+    "question": "What is the main idea of the passage?",
+    "reference_answer": "##threats, bolsteringthenation \u2019 soverall cybersecurityposture. \u25cf national cybersecurity strategy ( ncs ) and implementation plan ( ncsip ) : the 2023 ncs outlines a comprehensive vision for a secure and resilientdigitalecosystem, addressingai - relatedcyberthreats, enhancinginci - dentresponsecapabilities, andimprovingfederalcooperationoncybersecurity. thencsipcoordinatestheseeffortsacrossvariousfederalagencies, ensuring effective achievement of strategic objectives. recent updates demonstrate significant progress, underscoring the federal government \u2019 s commitment to bolstering national cybersecurity. together, the ncs and ncsip provide a",
+    "relevant_keywords": [],
+    "source_chunk_idx": 279
+  },
+  {
+    "q_id": 108,
+    "question": "What is the main idea of the passage?",
+    "reference_answer": "##andignity [ 118 ]. ensuringaisupportshumandecision - making without manipulation, prevents harm in critical areas like health care, and promotesunbiasedaioperationthroughfairnessaudits. explicabilitydemands transparent ai processes, such as in personalized learning, to enhance under - standing and trust. upholding human dignity involves safeguarding against ai misuse, suchasharmfuldeepfakes, toprotectindividualintegrityandreputation.",
+    "relevant_keywords": [],
+    "source_chunk_idx": 265
+  },
+  {
+    "q_id": 109,
+    "question": "What is the main idea of the passage?",
+    "reference_answer": "8. 9 governancestructuresforaccountability 217 forinstance, agenaithatimprovesphishingtacticsonitsownraisesquestions about whether the developer, the user, or the genai itself is responsible for its actions. to address the nuances of genai - enabled cyberattacks, there is a pressingneedfordevelopinglegalframeworksthatconsidertherolesofvarious stakeholders in the genai life cycle. ethical genai development must empha - size accountability and transparency to mitigate misuse risks. implementing robust security measures and ethical guidelines in genai development and deployment can help prevent their misuse in cyberattacks. future challenges includekeepinglegalandethicalguidelinesupdatedwiththerapidevolutionof genaitechnology, harmonizinginternationallawsandstandardsongenaiand cybersecurity to tackle cross - border cyberattacks, and educating the public and organizationsabouttherisksofgenai - enabledcyberattacksandtheimportance ofcybersecuritypractices. 8. 8. 3 internationallawsandnorms the tallinn manual, developed by international legal experts under the north atlantictreatyorganization ( nato ) cooperativecyberdefensecentreofexcel - lence ( ccdcoe ), servesasaglobalguideonapplyinginternationallawtocyber operations [ 187 ]. tallinnmanualaddressesstateresponsibilityincyberwarfare, includingtheaccountabilityofstateswith \u201c effectivecontrol \u201d overcyberoperations conductedbyai. thisisparticularlyrelevantwithgenai, wheretheautonomous natureofthesesystemsblurscontrolandresponsibilitylines. legaladvisersand policyexpertsrelyonthemanualtonavigateemergingchallenges, especiallywith genai \u2019 sinvolvementincyberoperationscomplicatinginternationallegalnorms onattributionandresponsibility. asgenaibecomesmoreautonomousincyber activities, determining state control and liability grows complex, prompting the needfornewlegalframeworks. ethically, deployinggenaiincyberattacksraises questionsaboutresponsibletechnologyuseandmoralresponsibilities",
+    "relevant_keywords": [],
+    "source_chunk_idx": 442
+  },
+  {
+    "q_id": 110,
+    "question": "What is the main idea of the text?",
+    "reference_answer": "8. 11 thefutureofaccountabilityingenai 223 privacyandaccountabilityingenaiforcybersecurity. bykeepingdatalocalized and only sharing model improvements, federated learning minimizes privacy risks. enhancements in this technology can ensure that genai development respectsuserprivacybydesign, offeringarobustmodelforaccountabilityindata usageandsecurityprotocols. 8. 11. 1. 4 aiauditingframeworksforgenaiincybersecurity theestablishmentofstandardizedaiauditingframeworksiscrucialforassess - ing genai systems \u2019 ethical, legal, and technical adherence in cybersecurity. these frameworks would provide clear guidelines for evaluating genai sys - tems, ensuring they meet established standards of fairness, transparency, and accountability, thus promoting trust and reliability in genai - driven security measures. 8. 11. 2 calltoactionforstakeholdersforaccountability thejourneytowardfullyaccountablegenaiincybersecurityisnottheresponsi - bilityofasingleentitybutacollectiveendeavorthatrequirestheengagementof developers, regulators, users, andtheglobalcommunity. \u25cf developers are urged to prioritize ethical considerations and transparency in their work, actively incorporating technologies and approaches that enhance accountability in cybersecurity applications. commitment to ethical genai developmentpracticesshouldbeviewedasacoreaspectofinnovation, nota hindrance. \u25cf regulatorsshouldcontinuetoevolvelegalframeworksthataddresstheunique challengesposedbygenaiincybersecurity, ensuringtheyareadaptabletotech - nologicaladvancements. internationalcollaborationiskeytocreatingcohesive standardsthatfacilitateaccountabilityacrossborders. \u25cf usersandtheglobalcommunitymustremaininformedandvigilant, advocat - ingforethicalaipracticesandsupportingregulationsthatensureaccountabil - ity. publicengagementindialogsaboutgenaiethicsandgovernanceiscrucial fordemocraticoversightofgenaitechnologies. \u25cf collectively, there is a need to foster a culture of accountability in genai for cyberse",
+    "relevant_keywords": [],
+    "source_chunk_idx": 453
+  },
+  {
+    "q_id": 111,
+    "question": "What is the name of the author of the book ?",
+    "reference_answer": "references 309 81 ruan, y., wobcke, w., halgamuge, s. andlee, m. ( 2019 ) \u2018 improvingchat - botresponsewithunsupervisedlearningtechniques \u2019, inproceedings ofthe 18thinternationalconferenceonautonomousagents andmultiagentsystems ( aamas \u2019 19 ), pp. 1 \u2013 9. availableat : https : / / www. ifaamas. org / proceedings / aamas2019 / pdfs / p351. pdf. 82 mccormack, j., gifford, t. andhutchings, p. ( 2019 ) \u2018 autonomy, authenticity, authorshipandintentionincomputergeneratedart \u2019, inproceedings ofthe 25thinternationalsymposiumonelectronicart ( isea2019 ). available at : https : / / isea2019. isea - international. org /. 83 zellers, r., holtzman, a., bisk, y., farhadi, a. andchoi, y. ( 2019 ) \u2018 defending againstneuralfakenews \u2019, inadvances inneuralinformationprocessing systems ( neurips2019 ), pp. 9054 \u2013 9065. availableat : https : / / papers. nips. cc / paper / 9106 - defending - against - neural - fake - news. pdf. 84 brundage, m., avin, s., clark, j., toner, h., eckersley, p., garfinkel, b., \u2026 andamodei, d. ( 2018 ) themalicioususeofartificialintelligence : forecast - ing, prevention, andmitigation. arxivpreprintarxiv : 1802. 07228. availableat : https : / / arxiv. org / abs / 1802. 07228. 85 u. s. congress ( 2015 ) cybersecurityinformationsharingactof2015. public lawno : 114 - 113. availableat : https : / / www. congress. gov / bill / 114th - congress / house - bill / 2029. 86 saxena, p., poosankam, p., mccamant, s. andsong,",
+    "relevant_keywords": [],
+    "source_chunk_idx": 611
+  },
+  {
+    "q_id": 112,
+    "question": "What are the process steps for aiops?",
+    "reference_answer": "62 3 understandinggenai data mgt. m vo ed re sil o d n e cv t la. n d monito ntri en ng a na cn ed model deploy me nt mai ml ops c o mc moll ua b no ir ca at ti io on n and go cve or mna pln ic ae n ca end testing ci / cd figure3. 3 mlopsflowdiagram. while dedicated frameworks for genai are emerging, mlops remains the prevalentapproachformanagingmachinelearningworkflows. 3. 6. 2 aioperations ( aiops ) aiops ( aiforitoperations ) utilizesaiandmachinelearningtoautomateand enhanceitoperationalprocesses. withinthecontextofgenai, aiopsiscrucial for forecasting and preventing potential issues in ai infrastructure, optimizing resource distribution, and ensuring the uninterrupted operation of generative models. this synergy between aiops and genai leads to robust and efficient management of ai systems, markedly diminishing downtime and enhancing performance. belowaretheprocessstepsforaiops ( seefigure3. 4 ) : 1. data collection and ingestion : data collection and ingestion involve gatheringdatafromvarioussourcessuchaslogs, metrics, andalerts, andthen centralizingitinadatalakeorwarehouse. 2. dataprocessingandnormalization : inthisstep, collecteddataiscleaned andstandardizedtoremovenoiseandirrelevantinformation. normalization allows for cohesive analysis of data from different sources. techniques like filtering, aggregation, andenrichmentareappliedtoensuredataqualityand reliability. 3. monitoringanddetection : thisstepfocusesoncontinuouslyobservingthe it environment using machine learning to identify anomalies and potential issuesinrealtime. proactivemonitoringhelpsinearlydetectionofproblems. 4. incident management and root cause analysis : when anomalies are detected, incident management involves recording, analyzing, and resolv - ingthem. aiopsplatformsautomatethecorrelationofeventstoidentifythe",
+    "relevant_keywords": [],
+    "source_chunk_idx": 155
+  },
+  {
+    "q_id": 113,
+    "question": "Which country has the most comprehensive data protection laws ?",
+    "reference_answer": "2. 7. 3. 8 southkorea south korea \u2019 s 2011 personal information protection act ( pipa ) is one of asia \u2019 s mostcomprehensivedataprotectionlaws, requiringorganizationstoimplement robustmeasuresforpersonalinformationprotection, reportbreaches, andobtain consentfordataprocessing. complementingpipa, the2001actonthepromo - tionofinformationandcommunicationsnetworkutilizationandinformation protectionenhancesinformationprotectionindigitalcommunications. 2. 7. 3. 9 middleeastandafrica thecybersecurityregulatorylandscapeinthemiddleeastandafricaisrapidly evolving, with numerous countries implementing strategies and regulations to enhancedigitalsecurityandprotectinfrastructure. keydevelopmentsincludethe following : \u25cf united arab emirates ( uae ) : the uae has established several cybersecu - rityframeworks, includingtheuaeinformationassurancestandards, which provideguidelinesforprotectingcriticalinformationinfrastructure. thefederal",
+    "relevant_keywords": [],
+    "source_chunk_idx": 121
+  },
+  {
+    "q_id": 114,
+    "question": "What is the main idea of the passage?",
+    "reference_answer": "1 1 introduction inthisintroductorychapter, weshallprobethepivotalthemesingenerativearti - ficialintelligence ( genai ), cybersecurity, andethics, layingthegroundworkfor anin - depthinvestigationofthiscaptivatingtopic. 1. 1 artificial intelligence ( ai ) aihasemergedfromtherealmofsciencefictiontobecomeatransformativeforce within the modern digital arena. essentially, ai replicates human intelligence, equipping machines with the ability to learn, reason, self - correct, and even comprehendandgeneratehumanlanguage. thefieldispredicatedonthebelief thathumanintelligencecanbepreciselydelineatedandduplicatedbymachines. this concept was propelled by alan turing \u2019 s seminal paper, which introduced the pressing question, \u201c can machines think? \u201d and established the turing test [ 1 ]. this test measures a machine \u2019 s capacity to display intelligent behavior that is indistinguishable from that of a human. during the test, a human evaluator interactswithbothamachineandahuman, unawareofwhichiswhich. ifthe evaluator cannot consistently differentiate the machine from the human based on their responses, the machine is considered to have passed the turing test. this standard has become a critical benchmark in ai, highlighting the chal - lenge of designing machines that can convincingly mimic human thought and conversation. aiencompassesmultipledisciplines, includingcomputerscience, cognitive science, linguistics, psychology, and neuroscience, underscoring the complexityandvastscopeofairesearch. variousapproachestoai, suchasthe symbolic approach that focuses on logic and languages, and the connectionist generativeai, cybersecurity, andethics, firstedition. rayislam ( mohammadrubyetislam ). \u00a92025johnwiley & sons, inc. published2025byjohnwiley & sons, inc.",
+    "relevant_keywords": [],
+    "source_chunk_idx": 45
+  },
+  {
+    "q_id": 115,
+    "question": "What is the difference between the two approaches?",
+    "reference_answer": "2 1 introduction approach that emphasizes learning from examples through artificial neural networks ( anns ), derivefromthesefields [ 2 ]. in2016, alphago, anaibygoogledeepmind, achievedtheunimaginablebydefeat - ingleesedol, atopgoplayer. thisvictorywasmonumental, asgo \u2019 scomplexityfar exceedsthatofchess, testingai \u2019 sstrategicprowessandintuition. alphago \u2019 ssuccess highlightedsignificantadvancementsindeeplearningandneuralnetworks, demon - strating ai \u2019 s ability to learn and devise strategies, mirroring human intuition and propellingaidevelopmentintonewterritories. aisystemsareoftencategorizedbasedontheircapabilitiesandthebreadthof theirapplications. theseclassificationsencompassthefollowing. 1. 1. 1 narrowai ( weakai ) specializedsystems, devoidofconsciousnessorgenuinecomprehension, define muchoftoday \u2019 sailandscape. thesesystemsareprogrammedforspecifictasks, falling short of the expansive capabilities theorized for ai. consider digital assistants such as siri and alexa, which adeptly set reminders, or the recom - mendation systems utilized by netflix and amazon, epitomizing narrow ai [ 3 ]. further manifestations include spotify \u2019 s recommendation engines, which adeptlypredictuserpreferences, self - drivingcarsdedicatedsolelytonavigation, medicalaithatproficientlyidentifiesdiseasesfromimages, andindustrialrobots with narrowly defined functions. the realm of narrow ai garners extensive explorationinailiteratureandresearch. 1. 1. 2 generalai ( strongai ) artificialgeneralintelligence ( agi ), orgeneralai, representsanunchartedter - ritoryofcaptivatingresearch. unlikenarrowai, whichexcelsinparticulartasks, agi would usher in a revolution across diverse domains through its ability to learnandadaptinamannerakintohumans. inthemedicalfield, forinstance, agi could sift through extensive datasets to deliver precise, personalized medi - caltreatments. intherealmofcreativity, it",
+    "relevant_keywords": [],
+    "source_chunk_idx": 46
+  },
+  {
+    "q_id": 116,
+    "question": "What is the main idea of the passage?",
+    "reference_answer": "areexperimentingwithdynamicconsentmodels, allowinguserstocontinuously manage their preferences and consent settings as the use of their data evolves. this approach provides users with greater control and understanding of how their data is being used. additionally, there is a push to make consent forms andprivacypoliciesclearerandmorestraightforward, reducingtechnicaljargon to ensure that consent is truly informed. gdpr in the european union ( eu ) has set a precedent by emphasizing the need for clear and explicit consent for data processing activities. it mandates that organizations provide transparent information about data processing and obtain explicit consent from individuals for using their personal data. these regulatory frameworks aim to protect individualprivacyrightsandmaintaintrustinthedigitalage. asgenaisystems in cybersecurity become more sophisticated and autonomous, the importance",
+    "relevant_keywords": [],
+    "source_chunk_idx": 557
+  },
+  {
+    "q_id": 117,
+    "question": "Which two factors are most likely to be associated with information security?",
+    "reference_answer": "##andcriticalinfrastructure andtraining 260 \u2013 261 32 human - centeredgenai 258 \u2013 259 informatica \u2019 sclaire 35 human - in - the - loop 255 \u2013 257 informationsecurity 20 human - on - the - loop 257 informationtechnologyactof2000 43",
+    "relevant_keywords": [],
+    "source_chunk_idx": 664
+  },
+  {
+    "q_id": 118,
+    "question": "What is the purpose of the text?",
+    "reference_answer": "##ctslikecoherenceandcontext. \u25cf structuralsimilarityindex ( ssim ) : ssimevaluatestheperceivedqualityof generatedimagesrelativetooriginalimages, makingitparticularlysuitablefor assessingimage - generatingmodels. itcompareslocalpatternsofpixelintensi - tiesadjustedforluminanceandcontrast, incorporatingfactorslikeluminance, contrast, and structural details to provide a comprehensive evaluation. ssim offers a detailed assessment by considering human visual perception aspects, butitmaynotfullycaptureperceptualdifferencesincompleximagesandcan besensitivetominorchangesinimagecontent.",
+    "relevant_keywords": [],
+    "source_chunk_idx": 183
+  },
+  {
+    "q_id": 119,
+    "question": "What is the main idea of the passage?",
+    "reference_answer": "14 1 introduction socioeconomicstatus, isanethicalimperative. effortsshouldbemadetobridge thegapandensureequitableaccesstoai - drivenhealthcareadvancements, such asdevelopingaffordableaitools, expandingtelemedicineservices, andproviding necessaryinfrastructureinunderservedcommunities. 1. 9. 7 humanautonomyandcontrol genai raises important questions about balancing human control and ai decision - making, especiallyincriticalsituations. asanexample, inautonomous vehicles, this is particularly relevant as it concerns safety and decision - making in potentially life - threatening scenarios. for example, in an emergency, the ai shouldallowahumandrivertotakeovertomakecrucialdecisions. developing ethical ai means prioritizing human values and autonomy, allowing human interventionwhenneeded. 1. 10 overview of the regional regulatory landscape for genai genai - specificregulationsarestillintheformativestages, andthereisconsider - ableworktobedone. whileexistingaiguidelinesprovideatemporaryframework forgenai, thedistinctnatureandimplicationsofgenaidemanddedicatedguide - lines. theexaminationofregulatoryframeworksforgenaiacrossvariousregions, including north america, europe, asia, africa, and australia, emphasizes the pressingneedforextensiveglobaloversightinthedevelopmentanddeployment ofthesetechnologies. astechnologyevolves, regulatoryframeworksmustadaptto incorporateethicalpracticesandsecurityconsiderations, fosteringcross - regional collaborationandpromotingaunifiedapproachtogenaigovernance. 1. 10. 1 northamerica in north america, the development of genai - specific regulations is ongoing. theunitedstateshastakenstepssuchasthenationalaiinitiativeact, which aims to bolster ai innovation while addressing ethical considerations, and an executive order from president biden that mandates policies for the safe development of ai, focusing on safety, bias, and civil rights. canada \u2019 s directive onautomateddecision - makingmandatestransparencyandaccountabilityinai usebythegovernment, settingastandardforgenaiapplications.",
+    "relevant_keywords": [],
+    "source_chunk_idx": 68
+  },
+  {
+    "q_id": 120,
+    "question": "What are the following types of cybersecurity?",
+    "reference_answer": "2. 1 differenttypesofcybersecurity 21 2. 1. 4 operationalsecurity operational security, as outlined in the national institute of standards and technology ( nist ), usa, special publication 800 - 53, involves processes and decisions that meticulously manage and protect data assets [ 24 ]. this domain dictatesthemodalitiesofdataaccess, processing, andmanagementbyauthorized personnel. essential for defending an organization \u2019 s information against both internal and external threats, operational security ensures that sensitive data is managed securely and in accordance with prevailing policies and regulations. keyoperationalsecuritymeasuresincludethefollowing : \u25cf useraccesscontrol : this strategy specifies access rights withina network, determiningwhocaninteractwithparticulardataandwhatactionstheyareper - mittedtotake. role - basedaccesscontrol ( rbac ), forinstance, restrictsaccess tosensitiveinformationtoauthorizedindividualsbasedontheirorganizational roles, thereby curtailing unauthorized access and mitigating the risk of data breaches. \u25cf dataclassification : thisinvolvescategorizingdatabyitslevelofsensitivity andimplementingtailoredsecuritymeasuresforeachcategory. datamightbe labeledaspublic, internal, confidential, orhighlyconfidential, eachrequiring specific security protocols. for example, encryption and stringent access controls protect highly confidential data, whereas public data may be more accessible. \u25cf security training and awareness : this measure educates employees on securitybestpracticesandtheircriticalroleinmaintainingoperationalsecurity. regular training sessions cover topics such as recognizing phishing attempts, crafting robust passwords, and securely managing sensitive information. ongoing educational efforts through annual security training, newsletters, or onlinecoursesfosteravigilantsecurityculture, reducingincidentsattributable tohumanerror. \u25cf incident response plans : these plans provide a structured approach for addressing data breaches and other security incidents. an effective response planincludesproceduresforidentification, containment, eradication, recovery, and postincident analysis. a dedicated incident response team can rapidly mitigatesecuritybreaches, minimizingdamage. \u25cf",
+    "relevant_keywords": [],
+    "source_chunk_idx": 79
+  },
+  {
+    "q_id": 121,
+    "question": "What are the principles that can help mitigate biases in cybersecurity?",
+    "reference_answer": "##ai systems. the gdpr emphasizes data protection and privacy, which includesprinciplesthatcanhelpmitigatebiasesbyensuringdataiscollectedand processed fairly. collaborative efforts between industry, academia, and govern - mentareessentialforestablishingethicalstandardsandoversightmechanismsto mitigatebiasesinsecuritygenai. initiativeslikethepartnershipongenaiserve asplatformsfordevelopingbestpracticesandstandardstoensuretheunbiased and equitable application of genai technologies in cybersecurity. these efforts reflectacommitmenttoethicalgenaitrainingpracticesandpromotediversity and transparency in the development process. additionally, the integration of genai ethics committees within organizations can provide ongoing oversight and guidance, ensuring that ethical considerations are consistently addressed",
+    "relevant_keywords": [],
+    "source_chunk_idx": 551
+  },
+  {
+    "q_id": 122,
+    "question": "Which of the following is not a legal and regulatory aspect of the disclosure of vulnerabilities?",
+    "reference_answer": "228 9 ethicaldecision - makingingenaicybersecurity oftenissueadvisoriesaboutflawswhileworkingonpatches. however, disclosing vulnerabilitieswithoutreadysolutionscanalertmaliciousactorstoweaknesses, potentiallyleadingtoexploitation, asseeninthewannacryransomwareattack, whereattackersexploitedapreviouslydisclosedvulnerabilityinwindowssystems thatmanyusershadnotyetpatched, leadingtomassiveglobaldisruptions. thus, whileimmediatedisclosurehasitsbenefitsintermsofproactivedefense, italso carriestheriskofenablingcyberattacksifprotectivemeasuresarenotpromptly implementedbyallusers. 9. 1. 2. 2 delayeddisclosure delayed disclosure of vulnerabilities allows organizations to develop, test, and deploy effective patches before the issue becomes public, ensuring a robust fix. this controlled approach lets security teams address problems without the pressure of ongoing attacks, as seen with the heartbleed bug. when the heartbleedbugwasdiscoveredinopenssl, someorganizationsthatwereprivy to the information before it went public used the time to patch their systems, significantly reducing potential damages. however, this strategy carries risks. if malicious actors independently discover the flaw during the delay, systems remainvulnerableandcanbeexploited, aswiththestuxnetworm. thus, while delayed disclosure helps in preparing effective solutions, it also risks leaving systemsexposedtopotentialexploitation. 9. 1. 2. 3 legalandregulatoryaspects the disclosure of cybersecurity vulnerabilities is complicated by varying legal andregulatoryrequirementsacrosscountriesandregions. eachjurisdictionhas itsownlawsandguidelinesonwhenandhowtodisclosevulnerabilities, posing challengesforinternationalorganizations. intheunitedstates, thefederaltrade commission ( ftc ) enforces timely disclosure to protect consumers, while in european union ( eu ), general data protection regulation ( gdpr ) mandates prompt notification of data breaches. these differing regulations influence how companies manage disclosures and make global cybersecurity decisions. organizations",
+    "relevant_keywords": [],
+    "source_chunk_idx": 461
+  },
+  {
+    "q_id": 123,
+    "question": "What is the main idea of the passage?",
+    "reference_answer": "254 9 ethicaldecision - makingingenaicybersecurity systemsautonomouslydetectandcounteractcyberthreats, buttheiractionsmay inadvertentlydisruptthird - partyinfrastructure, raisingquestionsaboutaccount - ability and the adequacy of the response. to address these dilemmas, limits on ai autonomy should be set, and comprehensive legal and ethical frameworks developed to govern their deployment. these frameworks must ensure that ai responses are proportional to threats and that responsibility and accountability areclearlydefinedincasesofunintendedconsequences. balancingtechnological advancement with ethical considerations is crucial to ensure that autonomous cyberdefensesystemsactresponsiblyandalignwithsocietalvalues. 9. 5. 6 casestudy6 : facialrecognitionforsecurity facial recognition technology, increasingly empowered by genai, is commonly utilized in security systems for authentication but also poses ethical concerns regardingprivacyandconsent. garvie \u2019 sreportunderscoredthepotentialmisuse of this technology, highlighting instances where it led to unauthorized surveil - lanceanddatacollection [ 218 ]. whilefacialrecognitionaidssecuritymeasures, such as identifying shoplifters in retail chains, it can inadvertently collect data on innocent shoppers without their consent, infringing on privacy rights. this dilemmahighlightsthetensionbetweensecurityandprivacy, potentiallyleading toacultureofpervasivesurveillance. toaddresstheseconcerns, itisimperative to ensure that individuals are informed and consent to facial recognition use, especiallyinpublicsettingslikeretailenvironments. implementinglegalframe - works and addressing biases in ai algorithms are crucial steps in navigating theseethicalchallenges, ultimatelystrikingabalancebetweensecurityneedsand individualprivacyrights. thenextchapterexplorestheessentialroleofhumansinoverseeingandregu - latingaitechnologies, emphasizingstewardship. ithighlightstheimportanceof acollaborativerelationshipbetweenhumanjudgmentandgenaicapabilitiesto upholdsocietalnormsandethicalstandards, especiallyinprivacy, security",
+    "relevant_keywords": [],
+    "source_chunk_idx": 510
+  },
+  {
+    "q_id": 124,
+    "question": "What are the labs that are mainly focused on?",
+    "reference_answer": "6 lab 10 : prepare data for ml apis on google cloud : challenge lab 03 working with notebooks in vertex ai mini - course : 8 lessons 04 create ml models with bigquery ml lab 1 : geing staed with bigquery ml lab 2 : predict visitor purchases with a classication model in bigquery ml lab 3 : predict taxi fare with a bigquery ml forecasting model lab 4 : bracketology with google machine learning lab 5 : create ml models with bigquery ml : challenge lab 05 engineer data for predictive modeling with bigquery ml lab 1 : creating a data transformation pipeline with cloud dataprep lab 2 : etl processing on google cloud using dataow and bigquery ( python ) lab 3 : predict visitor purchases with a classication model in bigquery ml lab 4 : engineer data for predictive modeling with bigquery ml : challenge lab 06 feature engineering module 1 : introduction to veex ai feature store module 2 : raw data to features module 3 : feature engineering module 4 : preprocessing and feature creation module 5 : feature crosses : tensorflow playground",
+    "relevant_keywords": [],
+    "source_chunk_idx": 682
+  },
+  {
+    "q_id": 125,
+    "question": "What is the main idea of the passage?",
+    "reference_answer": "glossary 295 deepbeliefnetworks ( dbns ) atypeofdeepneuralnetworkcomposedof multiplelayersofstochastic, latentvariables. dbnsaretrainedusinga layer - by - layerapproachandareusedforfeaturelearningandpretrainingdeep networks. defensecentreofexcellence ( ccdcoe ) anato - affiliatedfacilityfocusing oncyberdefensebyprovidingmemberstateswithexpertise. distributedcomputing amodelinwhichcomponentsofasoftwaresystem aresharedamongmultiplecomputerstoimproveefficiencyandperformance. distributeddenialofservice ( ddos ) anattackthatdisruptsnormalweb trafficandoverwhelmsawebsitewithafloodofinternettraffic. electronichealthrecords ( ehrs ) digitalversionsofpatients \u2019 papercharts, whicharereal - time, patient - centeredrecords. estonia \u2019 sksiblockchain ablockchaintechnologyusedbyestoniafor securingpublicandprivatesectore - services, includinghealth, judicial, legislative, security, andcommercialsystems. ethicalhackers securityprofessionalswhousetheirhackingskillsfor legitimatepurposes, suchastestingandimprovingthesecurityofsystems. ethicalhackershelporganizationsidentifyandaddressvulnerabilitiesbefore theycanbeexploitedbymaliciousactors. eudaimonia anaristoteliantermoftentranslatedas \u201c happiness \u201d or \u201c flourishing. \u201d itrepresentsthehighesthumangood, achievedthroughlivinga lifeofvirtueandfulfillingone \u2019 spotential. exabeam asecuritymanagementplatformthatusesbigdataandmachine learningforimprovingcybersecurityposture. f1score ameasureofamodel \u2019 saccuracy, calculatedastheharmonicmeanof precisionandrecall. itisusedtoevaluatebinaryclassificationsystems, particularlywhentheclassdistributionisimbalanced. formula : 2\u00d7 ( precision\u00d7recall ) f1 = (",
+    "relevant_keywords": [],
+    "source_chunk_idx": 582
+  },
+  {
+    "q_id": 126,
+    "question": "What is the main idea of the passage?",
+    "reference_answer": "170 6 ethicaldesignanddevelopment theseuses, asdiscussedbydiakopoulosin \u201c transparencyandaccountabilityin aidecision - making \u201d [ 142 ]. genaisystemsmustalsocomplywithlegalandethi - calstandards, includingpurposelimitationstipulationsinregulationslikegdpr. implementingmechanismstopreventmisuse, suchasaccesscontrolsandaudit trails, isessential. 6. 11 impact assessment conducting regular impact assessments is essential for evaluating the ethical implications of genai throughout its life cycle, ensuring that its development and deployment remain ethical, particularly in cybersecurity. this continuous process involves assessing the genai system to understand its potential risks, impacts on users, and societal effects. by regularly evaluating these aspects, developerscanensurethattheainotonlyfulfillsitsintendedpurposebutalso alignswithethicalstandardsandsocietalvalues. thisproactiveapproachhelps mitigaterisks, addressunforeseenconsequences, andmaintaintheintegrityand trustworthinessofgenaisystems. keyaspectsincludeassessingpotentialrisks, such as false positives in genai - driven threat detection systems, which could unjustlytargetinnocentusers. additionally, evaluatingcompliancewithethical principles ensures that the ai respects user privacy and operates transparently and fairly. impact assessments must also consider the ai \u2019 s effect on users and society, includingitsinfluenceonuserbehavior, privacy, andtrust. forexample, evaluating the impact of genai - powered surveillance on employee privacy and morale is important. assessing bias and fairness in the genai system is vital, especially in cybersecurity, where biased ai could lead to unequal protection or targeting of specific groups [ 162 ]. regular review and adaptation based on assessmentfindingsensurethatthesystemremainsethicallyalignedandeffective overtime. 6. 12 societal and cultural sensitivity designing genai with sensitivity to cultural and societal contexts is crucial, especially in cybersecurity applications. genai systems must cater to a diverse userbase, respectinguniqueculturalvaluesandnorms. forinstance, aglobally targeted chatbot should adapt to different communication styles and cultural norms, aligningwithunitednationseducational, scientific",
+    "relevant_keywords": [],
+    "source_chunk_idx": 356
+  },
+  {
+    "q_id": 127,
+    "question": "What are the main functions of ssl / tls ?",
+    "reference_answer": "##ingapplicationsforprocessingatransaction, manipulatingdata, triggeringresponses, andcommunicatingwithotherdigitalsystems. securedeviceonboard ( sdo ) aprotocolthatsimplifiesandsecuresthe deviceonboardingprocess, makingiteasierandmoresecurefordevicestobe connectedtotheirrespectivenetworks. securemultipartycomputation ( smpc ) acryptographicmethodinwhich partiesjointlycomputeafunctionovertheirinputswhilekeepingthoseinputs private. securityoperationscenters ( socs ) facilitiesthathouseaninformation securityteamresponsibleformonitoringandanalyzinganorganization \u2019 s securitypostureonanongoingbasis. securesocketslayer / transportlayersecurity ( ssl / tls ) protocolsfor encryptinginformationovertheinternet, ensuringsecuredatatransmission betweenserversandclients. tlsisthesuccessortosslandprovides enhancedsecurityandperformance.",
+    "relevant_keywords": [],
+    "source_chunk_idx": 591
+  },
+  {
+    "q_id": 128,
+    "question": "what are the contents of the ix?",
+    "reference_answer": "contents ix 2. 3. 3 government 31 2. 3. 4 e - commerce 31 2. 3. 5 industrialandcriticalinfrastructure 32 2. 4 currentimplicationsandmeasures 32 2. 5 rolesofaiincybersecurity 33 2. 5. 1 advancedthreatdetectionandanomalyrecognition 33 2. 5. 2 proactivethreathunting 34 2. 5. 3 automatedincidentresponse 34 2. 5. 4 enhancingiotandedgesecurity 34 2. 5. 5 complianceanddataprivacy 35 2. 5. 6 predictivecapabilitiesincybersecurity 35 2. 5. 7 real - timedetectionandresponse 35 2. 5. 8 autonomousresponsetocyberthreats 36 2. 5. 9 advancedthreatintelligence 36 2. 6 rolesofgenaiincybersecurity 36 2. 7 importanceofethicsincybersecurity 37 2. 7. 1 ethicalconcernsofaiincybersecurity 37 2. 7. 2 ethicalconcernsofgenaiincybersecurity 38 2. 7. 3 cybersecurity - relatedregulations : aglobaloverview 39 2. 7. 3. 1 unitedstates 39 2. 7. 3. 2 canada 39 2. 7. 3. 3 unitedkingdom 41 2. 7. 3. 4 europeanunion 42 2. 7. 3. 5 asia - pacific 42 2. 7. 3. 6 australia 43 2. 7. 3. 7 india 43 2. 7. 3. 8 southkorea 43 2. 7. 3. 9 middleeastandafrica 43 2. 7. 3. 10 latinamerica 44 2. 7. 4 unsdgsforcybersecurity 45 2. 7. 5 usecasesforethicalviolationofgenaiaffectingcybersecurity 46 2. 7. 5. 1 indiantelecomdatabreach 46 2. 7. 5. 2 hospitalsimoneveilransomwareattack 46 2. 7. 5. 3 microsoftazureexecutiveaccountsbreach 46 3 understandinggenai 47 3. 1 typesofgenai 48 3. 1. 1 textgeneration 49 3. 1. 2 naturallanguageunderstanding ( nlu ) 49 3. 1. 3 image",
+    "relevant_keywords": [],
+    "source_chunk_idx": 7
+  },
+  {
+    "q_id": 129,
+    "question": "What is the main idea of the text?",
+    "reference_answer": "12 1. 3 : training models by using automl this section focuses on preparing your data for use with automl in veex ai. it describes how to organize various data types, including tabular, text, images, and videos, for optimal model training. the section also covers data management techniques within veex ai, preprocessing steps using tools like dataow and bigquery, and the creation of feature stores. additionally, it explains the crucial role of feature selection and data labeling in automl and explores responsible ai practices by examining privacy implications and how to handle sensitive data. focus areas : explore in the following courses : \u25cf preparing data for automl ( e. g., feature introduction to ai and machine learning on google cloud selection, data labeling, tabular workows on automl ). working with notebooks in veex ai \u25cf using available data ( e. g., tabular, text, speech, images, videos ) to train custom models. \u25cf using automl for tabular data. \u25cf creating forecasting models using automl. \u25cf conguring and debugging trained models.",
+    "relevant_keywords": [],
+    "source_chunk_idx": 688
+  },
+  {
+    "q_id": 130,
+    "question": "Which of the following is not a measure of transparency and accountability?",
+    "reference_answer": ". 2. 1 extentoftestingandvulnerabilitydisclosure 267 10. 6. 2. 2 establishingethicalboundaries 267 10. 6. 2. 3 privacyanddataprotection 267 10. 6. 2. 4 responsibledisclosure 267 10. 6. 2. 5 minimizingharm 267 10. 6. 2. 6 transparencyandaccountability 268",
+    "relevant_keywords": [],
+    "source_chunk_idx": 27
+  },
+  {
+    "q_id": 131,
+    "question": "what is the name of the person who is the orphan of the world?",
+    "reference_answer": "tothewisestone. totheapplesofmyeye. toalltheorphansoftheworld, mychildren.",
+    "relevant_keywords": [],
+    "source_chunk_idx": 4
+  },
+  {
+    "q_id": 132,
+    "question": "What is the main idea of the passage?",
+    "reference_answer": "##fgenaiandadvocateforinclusive and equitable genai policies. ensuring that genai technologies are accessible andbeneficialtoallsegmentsofsocietyisanotherfacetofinclusivity. wemust develop genai solutions that cater to diverse populations, including those withdisabilities, andensurethesetechnologiesdonotexacerbatesocialdivides. asgenai \u2019 sinfluenceexpands, particularlyincybersecurity, thecallforinclusivity growsevermoreurgent. wemuststriveforgenaidevelopmentandgovernance that are inclusive and representative of diverse perspectives. only then can we creategenaisystemsthatarefair, unbiased, andbeneficialtoallofsociety. 11. 5. 5 acallforeducationandawareness educational initiatives are crucial in fostering public understanding of both the potential and limitations of genai. efforts like the ai4k12 program in the unitedstatesaimtointroduceaieducationink - 12schools, providingstudents with a foundational understanding of genai principles and ethical considera - tions. bybreakingdownthecomplexitiesofgenaiintoaccessibleconcepts, such",
+    "relevant_keywords": [],
+    "source_chunk_idx": 571
+  },
+  {
+    "q_id": 133,
+    "question": "What are the most important information technologies ?",
+    "reference_answer": "336 index informationtechnology ( reasonable iso / iec27005 116 securitypracticesandprocedures iso / iec27017 116, 128 andsensitivepersonaldataor iso / iec27018 116 information ) rules2011india iso / iec27032 116, 128 197 iso / iec38507 117 informationwarfare 233 iso / iectr24027 117 informedconsent 281 \u2013 282 iso / iectr24029 - 1 117 infrastructureredundancyandresilience 25 j insiderthreatdetection 253 japan \u2019 sbasicactoncybersecurity instituteofelectricalandelectronics ( 2014 ) 43 engineers ( ieee ) 116 jax ( justafterexecution ) 56 intellectualpropertylaws 140 \u2013 142 jointaicenter ( jaic ) 130 interactivechatbots 80 junipermxseriesrouters 100 internationalstandardsandagreements ai4people \u2019 sethicalframework k 122 \u2013 123 kant, immanuel 115 asilomaraiprinciples 121 \u2013 123 keras 55 \u2013 56 euethicsguidelines 118, 119 knowledgeshare 265 g7andg20summits 121 koreainternetandsecurityagency google \u2019 saiprinciples 123 ( kisa ) 136 ieee \u2019 sethicallyaligneddesign 121, 122 l iso / iecstandards 116 \u2013 118 languagemodelfordialogue forai 117 applications ( lamda ) 52 forcybersecurity 116 laserinterferometergravitational - wave looselycoupled 118 observatory ( ligo ) 3 oecdprinciplesonai 119 \u2013 121 leadershipanddecision - making 261 partnershiponai 123 \u2013 124 llama 160 unesco \u2019 srecommendationonthe localinterpretablemodel - agnostic ethicsofai 119, 120 explanations ( lime ) 106, 165, intrusiondetectionandprevention 222 systems ( idps ) 101 longshort - termmemory ( lstm ) 70 intrusiondetectionsystems ( idss ) 18, 92 m ipsecvpns 101 machinelearning ( ml ) 3, 56 \u2013 57 iso / iec22989 117, 118 andaialgorithms 263 iso / iec23053 117, 118, 127 \u2013 128 machinelearningoperations ( mlops ) iso / iec24028 117, 118, 127 60 \u2013 62 iso",
+    "relevant_keywords": [],
+    "source_chunk_idx": 665
+  },
+  {
+    "q_id": 134,
+    "question": "What is the main idea of the passage?",
+    "reference_answer": "##tion lawsisessentialforseamlessgenaideploymentacrossborders, mitigatinglegal risksandensuringcompliancewithcybersecuritystandards. trainingprograms shouldemphasizeongoingeducationtokeepprofessionalsupdatedonregulatory changes, preparingthemtonavigatethecomplexitiesofgenaiintegrationrespon - siblyandsecurely. thisapproachalignstechnologicaladvancementswithethical standards, promotingmoralintegrityincybersecuritypractices.",
+    "relevant_keywords": [],
+    "source_chunk_idx": 523
+  },
+  {
+    "q_id": 135,
+    "question": "What is the most important issue that needs to be addressed in the future?",
+    "reference_answer": "##m. thepotentialforgenaito bemisusedinharmfulactivitiesunderscorestheurgentneedforethicalguidelines andregulationstopreventsuchmisuse. 1. 9. 6 equityandaccess while genai - powered healthcare diagnostics hold great promise, it is crucial to address the issue of unequal access across socioeconomic groups. disparities in healthcare outcomes can arise when advanced ai technologies, such as personalized treatment plans and diagnostic tools, are not equally accessible to all. ensuring that genai is inclusive and accessible to everyone, regardless of",
+    "relevant_keywords": [],
+    "source_chunk_idx": 67
+  },
+  {
+    "q_id": 136,
+    "question": "What are the ## standards related to data protection, cybersecurity, and ai ethics?",
+    "reference_answer": "##tandardsrelatedtodata protection, cybersecurity, and ai ethics while preparing for future regulatory developmentsspecificto genai. as anexample, compliancewithinternational standards, suchasthegdprintheeu, ensureshighlevelsofdataprivacyand securitybyrequiringexplicitconsentanddataminimizationindataprocessing activities [ 63 ]. frameworks like iso / iec 27001 offer guidelines for establishing and maintaining an information security management system, which can be instrumental in deploying genai technologies [ 208 ]. regular ethical audits ensureongoingcompliancewithethicalstandardsandregulatoryrequirements",
+    "relevant_keywords": [],
+    "source_chunk_idx": 484
+  },
+  {
+    "q_id": 137,
+    "question": "What is the main idea of the passage?",
+    "reference_answer": "168 6 ethicaldesignanddevelopment 6. 7 human - centric design placing human well - being at the center of genai design ensures that the technologysupportshumanvaluesandsocietalbenefits. human - centricdesign in genai for cybersecurity focuses on developing technologies that prioritize human well - being, uphold human values, and contribute positively to society. this approach ensures that genai systems are not only technically proficient butalsoalignedwithethicalprinciplesandsocietalneeds. forinstance, agenai systemdesignedtodetectandpreventcyberbullyingononlineplatformsshould prioritizeusers \u2019 mentalandemotionalwell - being. naharetal. demonstratemeth - ods for identifying and querying sensitive relationships within graph databases todetectcyberbullyingpatterns, helpingcreatesaferonlineenvironments [ 157 ]. upholding human values such as fairness, justice, and respect for privacy is crucialingenaisystems. acybersecuritygenaidesignedforsurveillancemust balance security needs with privacy concerns to avoid infringing on individual rights. salganik et al. discuss the importance of balancing these aspects [ 158 ]. additionally, ai systems should be inclusive and accessible to diverse users, includingthosewithdisabilities. incybersecurity, thismeansdesigninginterfaces thataccommodatevariouslevelsoftechnicalexpertiseandabilities. lazaretal. emphasize the need for accessible ai design for diverse users [ 159 ]. in cyber - security, decision - making ai tools for threat assessment should allow experts to override or adjust ai decisions when necessary. furthermore, promoting socialandethicalresponsibilityingenaidevelopmentisessential. forexample, ai systems designed to detect and mitigate the spread of harmful misinforma - tion on social media should consider their societal impact. collaboration with stakeholders, includingend - users, ethicists, anddomainexperts, isalsovital. 6. 8 regulatory compliance regulatory compliance involves aligning genai \u2019 s design, development, and deploymentwithexistinglegalstandardstoprotectindividualandorganizational rights. ensuringcompliancewiththegdprintheeuropeanunio",
+    "relevant_keywords": [],
+    "source_chunk_idx": 352
+  },
+  {
+    "q_id": 138,
+    "question": "What are the names of the authors of the book ' machinebehaviour '?",
+    "reference_answer": "references 321 237 rahwan, i., cebrian, m., obradovich, n., bongard, j., bonnefon, j. f., breazeal, c., \u2026 andvespignani, a. ( 2019 ) \u2018 machinebehaviour \u2019, nature, 568 ( 7753 ), pp. 477 \u2013 486. 238 bostrom, n. andyudkowsky, e. ( 2014 ) \u2018 theethicsofartificialintelligence \u2019, inbostrom, n. andyudkowsky, e. ( eds. ) globalcatastrophicrisks. oxford universitypress, pp. 308 \u2013 345. 239 priyanka, v., mukhandi, m., singh, p. s. andkhanna, v. ( 2021 ). security trendsininternetofthings : asurvey. discoverappliedsciences. springer. availableat : https : / / link. springer. com / article / 10. 1007 / s42452 - 021 - 04156 - 9 ( accessed : 23june2024 ). 240 splunk ( 2024 ) stateofsecurity2024 : theracetoharnessai. available at : https : / / www. splunk. com ( accessed : 20june2024 ). 241 houser, k. ( 2017 ) thesolutiontooureducationcrisismightbeai. futur - ism. availableat : https : / / futurism. com / ai - teachers - education - crisis ( accessed : 20june2024 ). 242 koedinger, k. r., weitekamp, m. andharpstead, e. ( 2020 ) \u2018 aninteraction designformachineteachingtodevelop aitutors \u2019, in chiconferenceon humanfactorsincomputingsystems, pp. 1 \u2013 11. available at : https : / / doi. org / 10. 1145 / 3313831. 3376226 ( accessed : 23june2024 ). 243 benjamin, r. ( 2019 ). raceafter technology : abolitionisttoolsforthenewjim code. cambridge : politypress.",
+    "relevant_keywords": [],
+    "source_chunk_idx": 640
+  },
+  {
+    "q_id": 139,
+    "question": "What is the purpose of the text?",
+    "reference_answer": "decision - making by emphasizingoutcomesandthegreatergood, itnecessitatescarefulconsideration of how utility is measured and balanced to ensure the rights and well - being of all parties, including minorities, are adequately addressed. this framework encouragescomprehensiveevaluationsofgenaiactions \u2019 consequences, guiding professionalstowarddecisionsaimedatmaximizingoverallbenefit. 9. 4. 2 deontologicalethics deontologicalethics, rootedinimmanuelkant \u2019 sphilosophy, offersaprincipled framework for assessing the ethicality of genai systems in cybersecurity, pri - oritizingadherencetomoraldutiesandrulesovertheconsequencesofactions.",
+    "relevant_keywords": [],
+    "source_chunk_idx": 492
+  },
+  {
+    "q_id": 140,
+    "question": "Which of the following is not a prerequisite for training machine learning models on google cloud?",
+    "reference_answer": "17 3. 2 : training models this section provides a comprehensive guide to training machine learning models on google cloud. it explains how to organize and ingest various data types for training, utilize dierent sdks like veex ai and kubeow, and implement distributed training for reliable pipelines. it covers crucial aspects of the training process, including hyperparameter tuning and troubleshooting common training failures. finally, it explores techniques for ne - tuning foundational models from model garden using veex ai, enabling you to leverage pre - trained models for your specic needs. focus areas : explore in the following courses : \u25cf organizing training data ( e. g., tabular, text, introduction to ai and machine learning on google cloud ( module 4 ) speech, images, videos ) on google cloud ( e. g., cloud storage, bigquery ). introduction to large language models \u25cf ingestion of various le types ( e. g., csv, machine learning operations ( mlops ) for json, images, hadoop, databases ) into generative ai training. production machine learning systems \u25cf training using dierent sdks ( e. g., veex ( module 3, module 6 ) ai custom training, kubeow on google kubernetes engine, automl, tabular build and deploy machine learning solutions workows ). on veex ai ( lab 3 ) \u25cf using distributed training to organize reliable pipelines. \u25cf hyperparameter tuning. \u25cf troubleshooting ml model training failures. \u25cf fine - tuning foundational models ( e. g., veex ai, model garden ).",
+    "relevant_keywords": [],
+    "source_chunk_idx": 693
+  },
+  {
+    "q_id": 141,
+    "question": "What are the three main concepts of the 300 glossary?",
+    "reference_answer": "300 glossary sentinelone anautonomousaiendpointsecuritysoftwarethatdetects, prevents, andrespondstothreats. shapleyadditiveexplanations ( shap ) agametheoreticapproachto explaintheoutputofanymachinelearningmodel. securityorchestration, automation, andresponse ( soar ) technologies thatalloworganizationstocollectinputsmonitoredbythesecurityoperations team. sqlinjection atypeofsecurityexploitinwhichanattackeraddsstructured querylanguage ( sql ) codetoawebforminputboxtogainaccessto resourcesormakechangestodata. stuxnet ahighlysophisticatedcomputerwormdiscoveredin2010, knownfor targetingspecificindustrialcontrolsystems. sustainabledevelopment thepracticeofdevelopinglandandconstruction projectsinamannerthatreducestheirimpactontheenvironmentby allowingthemtocreateenergyefficientmodelsandsustainableecosystems. tactics, techniques, andprocedures ( ttps ) thepatternsofactivitiesor methodsassociatedwithaspecificthreatactororgroupofthreatactors. themanhattanproject aresearchanddevelopmentundertakingduring worldwariithatproducedthefirstnuclearweapons. thetallinnmanual acomprehensiveanalysisofhowinternationallaw appliestocyberconflictsandcyberwarfare. theuscopyrightoffice apartoftheusgovernmentthatregisters copyrights ; itisanofficeofpublicrecordforcopyrightclaims. tpu ( tensorprocessingunit ) atypeofprocessordesignedspecificallyfor tensorcomputations, providingaccelerationcapabilitiesforaiapplications. transformers modelsthatusemechanismscalledattention, differentially weighingthesignificanceofeachpartoftheinputdata. unitednationssustainabledevelopmentgoals ( unsdgs ) acollectionof 17globalgoalsdesignedtobeablueprintto",
+    "relevant_keywords": [],
+    "source_chunk_idx": 592
+  },
+  {
+    "q_id": 142,
+    "question": "what is the first book that jim coded ?",
+    "reference_answer": "raceafter technology : abolitionisttoolsforthenewjim code. cambridge : politypress.",
+    "relevant_keywords": [],
+    "source_chunk_idx": 641
+  },
+  {
+    "q_id": 143,
+    "question": "What is the purpose of the text?",
+    "reference_answer": "##taadequatelyforanalysis and visualization. while dataops assures the quality and reliability of data for useinaimodels, itmaynotdirectlyaddressthespecificchallengesinherentin algorithm development and model training, which are central to data science andmachinelearningworkflows. however, throughstrategiccollaborationwith mlops, teams can effectively manage the entire life cycle of genai projects. thissynergisticapproachguaranteesefficientdatapipelines, upholdshighdata standards, and optimizes the development and deployment of models, thereby providingacomprehensivesolutiontailoredforgenaiinitiatives.",
+    "relevant_keywords": [],
+    "source_chunk_idx": 163
+  },
+  {
+    "q_id": 144,
+    "question": "What is the purpose of the passage?",
+    "reference_answer": "##tatesexplicitconsentforcollecting, using, anddisclosingpersonal information, significantlyinfluencingdataacquisitionforgenaitrainingacross these sectors. organizations and government entities employing genai must adhere to pipeda \u2019 s stipulations to ensure compliance with privacy legislation. pipeda also requires that personal data be accurate, complete, and up - to - date tofacilitatefairandreliableoutcomesingenaiapplications, applicabletoboth privateandgovernmentalorganizations. furthermore, entitiesmustimplement suitablesafeguardstoprotectpersonalinformationagainstloss, theft, andunau - thorizedaccess, enhancingcybersecuritymeasures inaccordancewithpipeda guidelines. although primarily applicable to the private sector, the federal privacyactalongwithprovincialandterritoriallegislationgovernsthehandling",
+    "relevant_keywords": [],
+    "source_chunk_idx": 402
+  },
+  {
+    "q_id": 145,
+    "question": "What is the main idea of the passage?",
+    "reference_answer": "continuously improving disaster recovery and businesscontinuityplansthroughregulardrillsandtestingisessential. amulti - nationalcorporationmightconductquarterlydrillssimulatingscenariossuchas datacenteroutagesorcyberattacks, allowingthemtopracticesystemrestoration andalternativeworkflows, refiningtheirresponsestrategies. 2. 1. 6 endpointsecurity endpointsecurityfocusesonprotectingdeviceslikecomputers, smartphones, and tabletsthatconnecttoanetwork, preventingthemfrombecomingentrypoints forcyberattacks. giventhatendpointsareoftenthemostvulnerabletargetsina network, securingthemiscrucialtomaintainingitinfrastructureintegrity. key measuresincludethefollowing :",
+    "relevant_keywords": [],
+    "source_chunk_idx": 82
+  },
+  {
+    "q_id": 146,
+    "question": "What are the principles that can help mitigate biases in cybersecurity?",
+    "reference_answer": "##ai systems. the gdpr emphasizes data protection and privacy, which includesprinciplesthatcanhelpmitigatebiasesbyensuringdataiscollectedand processed fairly. collaborative efforts between industry, academia, and govern - mentareessentialforestablishingethicalstandardsandoversightmechanismsto mitigatebiasesinsecuritygenai. initiativeslikethepartnershipongenaiserve asplatformsfordevelopingbestpracticesandstandardstoensuretheunbiased and equitable application of genai technologies in cybersecurity. these efforts reflectacommitmenttoethicalgenaitrainingpracticesandpromotediversity and transparency in the development process. additionally, the integration of genai ethics committees within organizations can provide ongoing oversight and guidance, ensuring that ethical considerations are consistently addressed",
+    "relevant_keywords": [],
+    "source_chunk_idx": 551
+  },
+  {
+    "q_id": 147,
+    "question": "What is the main idea of the passage?",
+    "reference_answer": "##ingdataimplicationsenabledevelopers toensurefairandunbiasedmodels. regularupdatesthroughongoingeducation enableteamstoswiftlyintegratenewethicalstandardsandpractices. 9. 2. 5 prioritizestakeholderengagementandpublictransparency engaging a wide range of stakeholders is crucial for understanding the ethical implications of deploying genai. this includes consulting users, cybersecurity experts, ethicists, and affected communities to gather diverse perspectives and insights. for example, microsoft \u2019 s ai and ethics in engineering and research",
+    "relevant_keywords": [],
+    "source_chunk_idx": 482
+  },
+  {
+    "q_id": 148,
+    "question": "What are the main goals of the ethical decision making process?",
+    "reference_answer": "248 9 ethicaldecision - makingingenaicybersecurity reflection and ongoing improvement incident response strategies system review and stakeholder feedback implementation guidelines and usage policies security protocols addressing bias and ensuring fairness model development and training practices data collection and privacy considerations stakeholder identification purpose and scope definition figure9. 2 ethicaldecision - makingsteps. emphasize autonomy, justice, transparency, beneficence, and nonmaleficence, ensuringthatgenaisystemsrespectuserautonomy, operatefairly, andsafeguard data transparently. for instance, genai should allow users to control data sharing, uphold consent, and prevent cyber threats while avoiding biases and privacybreaches. balancingtheseprinciplesinpracticalscenariosischallenging, requiringongoingdialogandadaptationtoevolvingsocietalvaluesandtechno - logicaladvancements. overall, suchframeworksensuregenaiincybersecurity alignswithethicalnorms, enhancingdefenseswhileprioritizinguserwell - being andrights. 9. 4. 8 ethicaldecisiontreesandflowcharts ethicaldecisiontreesandflowchartsareessentialtoolsingenai, particularlyin cybersecurity ( seefigure9. 2 ). theyofferastructuredmethodtonavigateethical dilemmas by guiding users through questions and choices that address various ethicalconcerns. thesetoolssimplifycomplexissuesintocleardecisionpoints, enablingsystematicanalysisofaiapplications \u2019 ethicalaspects. 1. purposeandscopedefinition : determinetheintendeduseofthegenai systemandassesswhetheritalignswiththeorganization \u2019 smissionandethical guidelines.",
+    "relevant_keywords": [],
+    "source_chunk_idx": 499
+  },
+  {
+    "q_id": 149,
+    "question": "Which of the following is not a cybersecurity strategy: cybersecurity or ai - based intrusion detection systems?",
+    "reference_answer": "324 index accountabilityforgenaifor ai - basedintrusiondetectionsystems cybersecurity ( contd. ) 263 ethicalgenaidevelopment aiforbehavioralanalysis 92 practices 215 ai4people \u2019 sethicalframework 122 \u2013 123 ai - generateddisinformation 91 roleofgovernanceandoversight ai - generatedphishingattacks 89 215 aioperations ( aiops ) 62 \u2013 63 transparentgenaidesignand aipersonhood 211 documentation 215 aipoliciesincybersecurity moralandethicalimplications asia 208 \u2013 209 china 135 \u2013 136 accountabilityandgovernance 210 india 136 environmentalimpact 210 japan 136 humanrights 210 regionalcooperation 136 informedconsent 210 southkorea 136 privacyforaccountability 209 australia 138 societalnorms 209 europe trustandtransparency 209 eucybersecuritystrategy 131 \u2013 133 opacity 205 \u2013 206 unitedkingdom 134 \u2013 135 regulatorycompliance 207 unitedstatesvs. eu 134 responsibilityforgenaimisuse latinamerica 207 \u2013 208 argentina 139 scalability 208 brazil 139 securityofaisystems 208 mexico 139 acmcodeofethics 220, 245 regionalcooperation 139 \u2013 140 acroniscyberprotect 99 middleeast 137 actontheprotectionofpersonal northamerica information ( appi ) ( japan ) 196 canada 131 adaptivethreatmodeling 275 \u2013 276 unitedstatesofamerica 128 \u2013 131 advanceddefensiveaitechnologies 92 southafrica 138 advancedexplainableai ( xai ) akamaiandcloudflare 101 techniques 222 alexnet 3 advancedthreatdetectionand algorithmicaccountabilityact prevention 10 \u2013 11 143 \u2013 144, 259 adversarialattacksagainstaisystems alphago 2, 10, 316 90 \u2013 91 alternativeworkarrangements 22 adversarialmlforthreatidentification amazons3 98 92 amazonwebservices ( aws ) sagemaker adversarialtesting 77 57 adversarialtraining 69, 92, 106 americanassociationforai ( aaai ) aiseeartificialintelligence ( ai ) 113",
+    "relevant_keywords": [],
+    "source_chunk_idx": 643
+  }
+]

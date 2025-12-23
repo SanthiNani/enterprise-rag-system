@@ -1,0 +1,33 @@
+# System files
+.DS_Store
+Thumbs.db
+
+# Environment variables (Critical!)
+.env
+.env.*
+!.env.example
+backend/.env
+frontend/.env
+
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+venv/
+env/
+.venv/
+.pytest_cache/
+
+# Backend Data options
+backend/data/*
+!backend/data/.gitkeep
+backend/logs/*
+!backend/logs/.gitkeep
+
+# Frontend Build
+frontend/build/
+frontend/dist/
+
+# IDEs
+.vscode/
+.idea/

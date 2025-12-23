@@ -1,0 +1,56 @@
+{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', sans-serif;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        background-color: #f5f5f5;
+        color: #333;
+    }
+
+    a {
+        color: #1976d2;
+        text-decoration: none;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+    button {
+        cursor: pointer;
+        border: none;
+        border-radius: 4px;
+        font-size: 14px;
+        padding: 8px 16px;
+        transition: all 0.3s ease;
+    }
+
+    button:hover {
+        opacity: 0.9;
+    }
+
+    button:disabled {
+        opacity: 0.6;
+        cursor: not-allowed;
+    }
+
+    input,
+    textarea {
+        font-family: inherit;
+        font-size: 14px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        padding: 8px;
+    }
+
+    input:focus,
+    textarea:focus {
+        outline: none;
+        border-color: #1976d2;
+        box-shadow: 0 0 0 2px rgba(25, 118, 210, 0.1);
+    }

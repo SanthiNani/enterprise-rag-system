@@ -1,0 +1,32 @@
+[
+  {
+    "q_id": 1,
+    "question": "What are the eligibility requirements?",
+    "answer": "forex example, proficiencyingenaitoolsallows professionals to de",
+    "confidence": 1.0,
+    "keyword_recall": 0.0,
+    "citations": [
+      {
+        "sentence": "forex example, proficiencyingenaitoolsallows professionals to de",
+        "source_file": "Generative AI, CS, Ethics Book.pdf",
+        "page": "N/A",
+        "similarity": 0.1942116767168045
+      }
+    ]
+  },
+  {
+    "q_id": 2,
+    "question": "How does the verification process work?",
+    "answer": "4. secureai model training ensureai models are trained with privacy - preserving techniques, maintaining datapriv",
+    "confidence": 1.0,
+    "keyword_recall": 0.0,
+    "citations": [
+      {
+        "sentence": "4. secureai model training ensureai models are trained with privacy - preserving techniques, maintaining datapriv",
+        "source_file": "Generative AI, CS, Ethics Book.pdf",
+        "page": "N/A",
+        "similarity": 0.5575010776519775
+      }
+    ]
+  }
+]
