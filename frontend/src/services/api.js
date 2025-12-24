@@ -1,7 +1,9 @@
 import axios from 'axios';
 
 const API_BASE_URL = process.env.REACT_APP_API_BASE_URL || 'http://localhost:8000';
-const API_TIMEOUT = parseInt(process.env.REACT_APP_API_TIMEOUT) || 30000;
+const API_TIMEOUT = parseInt(process.env.REACT_APP_API_TIMEOUT) || 120000;
+
+console.log('API Config:', { API_BASE_URL, API_TIMEOUT }); // DEBUG: Verify URL
 
 // Create axios instance
 const api = axios.create({
