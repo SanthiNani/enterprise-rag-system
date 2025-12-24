@@ -9,7 +9,7 @@ class Config:
     DATABASE_URL = os.getenv(
         "DATABASE_URL",
         "postgresql://rag_user:rag_password@localhost:5432/rag_db"
-    )
+    ).strip().replace("'", "").replace('"', "")
     
     # API
     SECRET_KEY = os.getenv("SECRET_KEY", "your-secret-key-here")
