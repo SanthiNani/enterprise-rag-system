@@ -51,7 +51,7 @@ class Config:
             "use_reranker": True
         },
         "generation": {
-            "model_name": "models/gemini-pro-latest",
+            "model_name": "models/gemini-1.5-flash",
             "max_new_tokens": 1024,
             "temperature": 0.3
         },
