@@ -68,16 +68,28 @@ Question: {query}
 
 Answer:"""
         
-        try:
-            # For newer models like gemini-pro-1.5 or deep-research, we often need Chat sessions
-            # or they enforce 'generateContent' strictly.
-            # However, logs showed "This model only supports Interactions API" which typically means Chat.
-            chat = self.model.start_chat(history=[])
-            response = chat.send_message(prompt)
-            return response.text
-        except Exception as e:
-            print(f"Gemini API Error: {e}")
-            return f"Error generating answer from Gemini API: {e}"
+        max_retries = 3
+        retry_delay = 5  # Start with 5 seconds
+
+        for attempt in range(max_retries + 1):
+            try:
+                # For newer models like gemini-pro-1.5 or deep-research, we often need Chat sessions
+                # or they enforce 'generateContent' strictly.
+                # However, logs showed "This model only supports Interactions API" which typically means Chat.
+                chat = self.model.start_chat(history=[])
+                response = chat.send_message(prompt)
+                return response.text
+            except Exception as e:
+                error_msg = str(e)
+                if "429" in error_msg:
+                    if attempt < max_retries:
+                        print(f"Gemini Rate Limit (429). Retrying in {retry_delay}s... (Attempt {attempt+1}/{max_retries})")
+                        time.sleep(retry_delay)
+                        retry_delay *= 2  # Exponential backoff
+                        continue
+                
+                print(f"Gemini API Error: {e}")
+                return f"Error generating answer from Gemini API: {e}"
 
 
 class TextChunker:
@@ -255,16 +267,14 @@ class RAGSystem:
         self.metadata = None
         
         # Initialize Generator
-        if config.get('GEMINI_API_KEY'):
-            print("Initializing Gemini Generator...")
-            self.generator = GeminiGenerator(config['GEMINI_API_KEY'], config['generation']['model_name'])
+        api_key = config.get('GEMINI_API_KEY')
+        model_name = config.get('generation', {}).get('model_name', 'gemini-pro')
+        
+        if api_key:
+            print(f"Initializing Gemini Generator with model: {model_name} (Key length: {len(api_key)})")
+            self.generator = GeminiGenerator(api_key, model_name)
         else:
-            # Fallback to T5 - BUT user wants Gemini. We'll warn if key missing in app.py.
-            # Keeping T5 logic commented out or just relying on app.py to pass the generator.
-            # Actually, per the original design, `app.py` passes the generator in `answer_question`,
-            # but standardizing it here is cleaner. 
-            # Let's support both:
-            print("WARNING: GEMINI_API_KEY not found. Fallback/Null generator.")
+            print("WARNING: GEMINI_API_KEY not found in config. Fallback/Null generator.")
             self.generator = None
     
     def load_index(self, index_dir):

@@ -14,6 +14,8 @@ class Config:
     # API
     SECRET_KEY = os.getenv("SECRET_KEY", "your-secret-key-here")
     ALGORITHM = "HS256"
+    GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
+    MODEL_NAME = "gemini-1.5-flash"
     ACCESS_TOKEN_EXPIRE_MINUTES = 30
     
     # URLs
@@ -37,6 +39,7 @@ class Config:
 
     # RAG Configuration
     RAG_CONFIG = {
+        "GEMINI_API_KEY": os.getenv("GEMINI_API_KEY"),
         "chunking": {
             "chunk_size": 512,
             "overlap": 50
@@ -51,7 +54,7 @@ class Config:
             "use_reranker": True
         },
         "generation": {
-            "model_name": "models/gemini-1.5-flash",
+            "model_name": Config.MODEL_NAME,
             "max_new_tokens": 1024,
             "temperature": 0.3
         },
