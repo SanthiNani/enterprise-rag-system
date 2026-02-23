@@ -68,16 +68,28 @@ Question: {query}
 
 Answer:"""
         
-        try:
-            # For newer models like gemini-pro-1.5 or deep-research, we often need Chat sessions
-            # or they enforce 'generateContent' strictly.
-            # However, logs showed "This model only supports Interactions API" which typically means Chat.
-            chat = self.model.start_chat(history=[])
-            response = chat.send_message(prompt)
-            return response.text
-        except Exception as e:
-            print(f"Gemini API Error: {e}")
-            return f"Error generating answer from Gemini API: {e}"
+        max_retries = 3
+        retry_delay = 5  # Start with 5 seconds
+
+        for attempt in range(max_retries + 1):
+            try:
+                # For newer models like gemini-pro-1.5 or deep-research, we often need Chat sessions
+                # or they enforce 'generateContent' strictly.
+                # However, logs showed "This model only supports Interactions API" which typically means Chat.
+                chat = self.model.start_chat(history=[])
+                response = chat.send_message(prompt)
+                return response.text
+            except Exception as e:
+                error_msg = str(e)
+                if "429" in error_msg:
+                    if attempt < max_retries:
+                        print(f"Gemini Rate Limit (429). Retrying in {retry_delay}s... (Attempt {attempt+1}/{max_retries})")
+                        time.sleep(retry_delay)
+                        retry_delay *= 2  # Exponential backoff
+                        continue
+                
+                print(f"Gemini API Error: {e}")
+                return f"Error generating answer from Gemini API: {e}"
 
 
 class TextChunker:
