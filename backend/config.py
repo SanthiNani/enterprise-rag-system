@@ -37,6 +37,7 @@ class Config:
 
     # RAG Configuration
     RAG_CONFIG = {
+        "GEMINI_API_KEY": os.getenv("GEMINI_API_KEY"),
         "chunking": {
             "chunk_size": 512,
             "overlap": 50
