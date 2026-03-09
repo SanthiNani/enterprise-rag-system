@@ -15,7 +15,7 @@ class Config:
     SECRET_KEY = os.getenv("SECRET_KEY", "your-secret-key-here")
     ALGORITHM = "HS256"
     GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
-    MODEL_NAME = "gemini-1.5-flash"
+    MODEL_NAME = "gemini-2.5-flash"
     ACCESS_TOKEN_EXPIRE_MINUTES = 30
     
     # URLs
@@ -54,7 +54,7 @@ class Config:
             "use_reranker": True
         },
         "generation": {
-            "model_name": Config.MODEL_NAME,
+            "model_name": MODEL_NAME,
             "max_new_tokens": 1024,
             "temperature": 0.3
         },
@@ -69,3 +69,4 @@ class Config:
     LOG_FILE = LOGS_DIR / "rag_system.log"
 
 config = Config()
+
