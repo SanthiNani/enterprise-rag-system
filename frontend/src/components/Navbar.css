@@ -1,17 +1,22 @@
 .navbar {
-    background-color: var(--surface-color);
-    color: var(--text-primary);
-    padding: 1rem 2rem;
-    box-shadow: var(--shadow-md);
-    position: sticky;
+    position: fixed;
     top: 0;
-    z-index: 100;
-    border-bottom: 1px solid var(--border-color);
+    left: 0;
+    right: 0;
+    height: 4.5rem;
+    background: rgba(15, 23, 42, 0.7);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border-bottom: 1px solid var(--surface-border);
+    z-index: 1000;
+    transition: all var(--transition-normal);
 }
 
 .navbar-container {
     max-width: 1200px;
     margin: 0 auto;
+    padding: 0 2rem;
+    height: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -19,29 +24,86 @@
 
 .navbar-logo {
     font-size: 1.5rem;
-    font-weight: bold;
-    color: white;
+    font-weight: 800;
+    color: var(--text-primary);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    letter-spacing: -0.025em;
+    transition: transform var(--transition-fast);
+
+    /* Handle long text gracefully */
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 60%;
+    /* Ensure it doesn't push nav items off screen */
+}
+
+.navbar-logo:hover {
+    transform: scale(1.01);
 }
 
 .nav-menu {
     display: flex;
     list-style: none;
     gap: 2rem;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item {
+    display: flex;
+    align-items: center;
 }
 
 .nav-link {
-    color: white;
-    transition: opacity 0.3s;
+    color: var(--text-secondary);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1rem;
+    padding: 0.5rem 0;
+    position: relative;
+    transition: color var(--transition-fast);
 }
 
 .nav-link:hover {
-    opacity: 0.8;
-    text-decoration: underline;
+    color: var(--text-primary);
 }
+
+/* Animated glowing underline on hover */
+.nav-link::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 2px;
+    background: var(--primary-color);
+    box-shadow: 0 0 8px var(--primary-glow);
+    transition: all var(--transition-normal);
+    transform: translateX(-50%);
+    border-radius: var(--radius-full);
+}
+
+.nav-link:hover::after {
+    width: 100%;
+}
+
+/* Add an active state class if we wanted to dynamically highlight current route (Requires updating Navbar.jsx slightly, or just rely on hover for now) */
 
 @media (max-width: 768px) {
     .nav-menu {
-        flex-direction: column;
-        gap: 0.5rem;
+        gap: 1rem;
+    }
+
+    .navbar-container {
+        padding: 0 1rem;
+    }
+
+    .navbar-logo span {
+        display: none;
+        /* Hide text on small screens, just show icon if we separated them */
     }
 }

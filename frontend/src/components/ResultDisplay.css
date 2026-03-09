@@ -1,172 +1,154 @@
-.no-results {
-    text-align: center;
-    padding: 3rem;
-    color: var(--text-secondary);
-    font-size: 1.1rem;
-    background: var(--surface-color);
-    border-radius: var(--radius-md);
-    border: 1px dashed var(--border-color);
+.result-display {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    animation: fadeIn 0.4s ease-out;
 }
 
-.result-container {
+.answer-card {
     background: var(--surface-color);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid var(--surface-border);
     border-radius: var(--radius-lg);
+    padding: 2rem;
+    box-shadow: var(--shadow-md);
+    position: relative;
     overflow: hidden;
-    box-shadow: var(--shadow-lg);
-    border: 1px solid var(--border-color);
 }
 
-.result-section {
-    padding: 1.5rem 2rem;
-    border-bottom: 1px solid var(--border-color);
+/* Subtle glowing top border effect for the answer card */
+.answer-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, var(--primary-color), var(--accent-color), transparent);
+    opacity: 0.8;
 }
 
-.result-section:last-child {
-    border-bottom: none;
-}
-
-.result-section h3 {
-    margin: 0 0 1rem 0;
+.answer-card h3 {
     color: var(--primary-color);
-    font-size: 0.875rem;
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
+    font-size: 1.25rem;
     font-weight: 600;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
 }
 
 .answer-text {
-    font-size: 1.1rem;
+    font-size: 1.125rem;
     line-height: 1.7;
     color: var(--text-primary);
-    padding: 1.5rem;
-    background-color: rgba(99, 102, 241, 0.05);
-    /* Tint of primary */
-    border-radius: var(--radius-md);
-    border: 1px solid rgba(99, 102, 241, 0.1);
+    white-space: pre-wrap;
 }
 
-.result-meta {
-    display: flex;
-    gap: 2rem;
-    padding: 1.5rem 2rem;
-    background-color: var(--background-color);
-    border-top: 1px solid var(--border-color);
+.metadata-card {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    background: rgba(30, 41, 59, 0.3);
+    border: 1px solid var(--surface-border);
+    border-radius: var(--radius-md);
+    padding: 1.5rem;
 }
 
 .meta-item {
     display: flex;
-    gap: 0.5rem;
-    align-items: center;
+    flex-direction: column;
+    gap: 0.25rem;
 }
 
 .meta-label {
-    font-weight: 600;
-    color: var(--text-secondary);
     font-size: 0.875rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--text-muted);
+    font-weight: 600;
 }
 
 .meta-value {
-    padding: 0.25rem 0.75rem;
-    border-radius: 9999px;
-    background-color: var(--surface-hover);
+    font-size: 1.25rem;
+    font-weight: 700;
     color: var(--text-primary);
-    font-size: 0.875rem;
-    font-weight: 500;
 }
 
-.confidence-badge {
-    background-color: var(--success-color);
-    color: white !important;
+.meta-value.high-confidence {
+    color: var(--success-color);
 }
 
-.citations-list {
+.meta-value.medium-confidence {
+    color: var(--warning-color);
+}
+
+.meta-value.low-confidence {
+    color: var(--error-color);
+}
+
+.citations-section {
+    background: var(--surface-color);
+    border: 1px solid var(--surface-border);
+    border-radius: var(--radius-lg);
+    padding: 1.5rem;
+    box-shadow: var(--shadow-sm);
+}
+
+.citations-section h4 {
+    font-size: 1.125rem;
+    color: var(--text-secondary);
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.citation-list {
     display: flex;
     flex-direction: column;
     gap: 1rem;
 }
 
 .citation-item {
-    display: flex;
-    gap: 1rem;
-    padding: 1rem;
-    background-color: var(--background-color);
-    border-radius: var(--radius-md);
-    border-left: 4px solid var(--primary-color);
-    transition: transform 0.2s;
+    background: rgba(0, 0, 0, 0.2);
+    border-left: 3px solid var(--primary-color);
+    padding: 1rem 1.25rem;
+    border-radius: 0 var(--radius-md) var(--radius-md) 0;
+    transition: transform var(--transition-fast), background var(--transition-fast);
 }
 
 .citation-item:hover {
     transform: translateX(4px);
-}
-
-.citation-number {
-    font-weight: bold;
-    color: var(--primary-color);
-    min-width: 24px;
-    height: 24px;
-    background: rgba(99, 102, 241, 0.1);
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 0.875rem;
+    background: rgba(0, 0, 0, 0.3);
 }
 
 .citation-text {
-    margin: 0 0 0.5rem 0;
-    font-style: italic;
+    font-size: 0.95rem;
     color: var(--text-primary);
     line-height: 1.6;
+    font-style: italic;
+    margin-bottom: 0.5rem;
 }
 
 .citation-source {
-    margin: 0;
-    font-size: 0.8rem;
-    color: var(--text-secondary);
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    gap: 0.5rem;
-}
-
-.support-list {
-    display: flex;
-    flex-direction: column;
-    gap: 0.75rem;
-}
-
-.support-item {
-    display: flex;
-    gap: 1rem;
-    padding: 1rem;
-    border-radius: var(--radius-md);
-    border-left: 3px solid var(--border-color);
-    background-color: var(--background-color);
-}
-
-.support-item.supported {
-    background-color: rgba(16, 185, 129, 0.05);
-    border-left-color: var(--success-color);
-}
-
-.support-item.unsupported {
-    background-color: rgba(239, 68, 68, 0.05);
-    border-left-color: var(--error-color);
-}
-
-.support-icon {
-    font-weight: bold;
-    min-width: 20px;
-}
-
-.support-text {
-    flex: 1;
-    color: var(--text-primary);
-}
-
-.support-similarity {
     font-size: 0.85rem;
-    color: var(--text-secondary);
-    min-width: 60px;
-    text-align: right;
-    font-variant-numeric: tabular-nums;
+    color: var(--text-muted);
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
+    padding-top: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.source-badge {
+    background: rgba(99, 102, 241, 0.15);
+    color: var(--primary-color);
+    padding: 0.2rem 0.6rem;
+    border-radius: var(--radius-full);
+    font-weight: 500;
+    font-family: 'Fira Code', monospace;
+    font-size: 0.8rem;
 }
