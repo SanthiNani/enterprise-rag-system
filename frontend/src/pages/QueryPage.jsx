@@ -8,7 +8,6 @@ import './QueryPage.css';
 const QueryPage = () => {
     const { result, loading, error, askQuestion } = useQuery();
     const [indexStatus, setIndexStatus] = useState(null);
-    const [indexLoading, setIndexLoading] = useState(true);
 
     useEffect(() => {
         const fetchIndexStatus = async () => {
@@ -17,8 +16,6 @@ const QueryPage = () => {
                 setIndexStatus(status);
             } catch (err) {
                 console.error('Failed to fetch index status:', err);
-            } finally {
-                setIndexLoading(false);
             }
         };
 

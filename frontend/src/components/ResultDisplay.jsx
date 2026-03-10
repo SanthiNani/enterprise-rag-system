@@ -1,5 +1,5 @@
 import React from 'react';
-import { formatLatency, getConfidenceColor, formatDate } from '../services/utils';
+import { formatLatency, getConfidenceColor } from '../services/utils';
 import './ResultDisplay.css';
 
 const ResultDisplay = ({ result }) => {
