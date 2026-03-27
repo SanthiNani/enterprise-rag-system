@@ -149,10 +149,10 @@ const EvaluationPage = () => {
                                             data={comparisonData}
                                             margin={{ top: 20, right: 30, left: 0, bottom: 5 }}
                                         >
-                                            <CartesianGrid strokeDasharray="3 3" stroke="rgba(255,255,255,0.1)" vertical={false} />
+                                            <CartesianGrid strokeDasharray="3 3" stroke="rgba(0,0,0,0.1)" vertical={false} />
                                             <XAxis dataKey="name" stroke="var(--text-secondary)" tick={{ fill: 'var(--text-secondary)' }} />
                                             <YAxis stroke="var(--text-secondary)" tick={{ fill: 'var(--text-secondary)' }} tickFormatter={(val) => `${val}%`} />
-                                            <Tooltip content={<CustomTooltip />} cursor={{ fill: 'rgba(255,255,255,0.05)' }} />
+                                            <Tooltip content={<CustomTooltip />} cursor={{ fill: 'rgba(0,0,0,0.05)' }} />
                                             <Legend wrapperStyle={{ paddingTop: '20px' }} />
                                             <Bar dataKey="Baseline" fill="var(--surface-hover)" radius={[4, 4, 0, 0]} />
                                             <Bar dataKey="PRO System" fill="var(--primary-color)" radius={[4, 4, 0, 0]} />
@@ -166,7 +166,7 @@ const EvaluationPage = () => {
                                 <div className="chart-container">
                                     <ResponsiveContainer width="100%" height={300}>
                                         <RadarChart cx="50%" cy="50%" outerRadius="70%" data={radarData}>
-                                            <PolarGrid stroke="rgba(255,255,255,0.2)" />
+                                            <PolarGrid stroke="rgba(0,0,0,0.2)" />
                                             <PolarAngleAxis dataKey="subject" tick={{ fill: 'var(--text-secondary)', fontSize: 12 }} />
                                             <PolarRadiusAxis angle={30} domain={[0, 100]} tick={false} axisLine={false} />
                                             <Radar

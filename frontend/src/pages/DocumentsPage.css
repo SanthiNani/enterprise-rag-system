@@ -169,7 +169,7 @@
     justify-content: space-between;
     align-items: center;
     background: rgba(0, 0, 0, 0.15);
-    border: 1px solid rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(0, 0, 0, 0.05);
     padding: 1.25rem;
     border-radius: var(--radius-md);
     transition: all var(--transition-fast);
