@@ -4,7 +4,7 @@
     left: 0;
     right: 0;
     height: 4.5rem;
-    background: rgba(15, 23, 42, 0.7);
+    background: var(--surface-color);
     backdrop-filter: blur(16px);
     -webkit-backdrop-filter: blur(16px);
     border-bottom: 1px solid var(--surface-border);
